@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TKMineCenterModule_Example' do
+  pod 'TKMineCenterModule', :path => '../'
+
+  target 'TKMineCenterModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
