@@ -1,0 +1,41 @@
+{
+  "name": "TKMineCenterModule",
+  "version": "0.1.0",
+  "summary": "TKMineCenterModule is a module for mine center",
+  "description": "TKMineCenterModule is a codeModule of mine center, contain view model controllers.",
+  "homepage": "https://github.com/MrLiu163/TKMineCenterModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLiu163": "lnfsky@163.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLiu163/TKMineCenterModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKMineCenterModule/Classes/**/*",
+  "resource_bundles": {
+    "TKMineCenterModule": [
+      "TKMineCenterModule/Assets/*.xcassets"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Model",
+      "source_files": "NCKFoundation/Classes/Model/**/*"
+    },
+    {
+      "name": "Controller",
+      "source_files": "NCKFoundation/Classes/Controller/**/*"
+    },
+    {
+      "name": "View",
+      "source_files": "NCKFoundation/Classes/View/**/*"
+    }
+  ]
+}

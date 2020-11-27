@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TKMineCenterModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TKMineCenterModule.'
+  s.summary          = 'TKMineCenterModule is a module for mine center'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TKMineCenterModule is a codeModule of mine center, contain view model controllers.
                        DESC
 
   s.homepage         = 'https://github.com/MrLiu163/TKMineCenterModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MrLiu163' => 'liunf@tksp.com' }
+  s.author           = { 'MrLiu163' => 'lnfsky@163.com' }
   s.source           = { :git => 'https://github.com/MrLiu163/TKMineCenterModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,21 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TKMineCenterModule/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.png']
-  # }
+  s.subspec 'Model' do |ss|
+      ss.source_files = 'NCKFoundation/Classes/Model/**/*'
+  end
+  
+  s.subspec 'Controller' do |ss|
+      ss.source_files = 'NCKFoundation/Classes/Controller/**/*'
+  end
+  
+  s.subspec 'View' do |ss|
+      ss.source_files = 'NCKFoundation/Classes/View/**/*'
+  end
+    
+  s.resource_bundles = {
+    'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

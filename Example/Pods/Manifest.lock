@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TKMineCenterModule (0.1.0):
+    - TKMineCenterModule/Controller (= 0.1.0)
+    - TKMineCenterModule/Model (= 0.1.0)
+    - TKMineCenterModule/View (= 0.1.0)
+  - TKMineCenterModule/Controller (0.1.0)
+  - TKMineCenterModule/Model (0.1.0)
+  - TKMineCenterModule/View (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TKMineCenterModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TKMineCenterModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TKMineCenterModule: cbd2501292fd10dfa7b38b1200c82ebe8611f8c3
+
+PODFILE CHECKSUM: fe94ca07642603e0dbddc1b5be6fe201dec4cd27
+
+COCOAPODS: 1.10.0

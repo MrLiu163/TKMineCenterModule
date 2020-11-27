@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFC58E36E0E5B6F2A7EEB1F /* TKMineCenterModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKMineCenterModule.podspec; path = ../TKMineCenterModule.podspec; sourceTree = "<group>"; };
+		0DFC58E36E0E5B6F2A7EEB1F /* TKMineCenterModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKMineCenterModule.podspec; path = ../TKMineCenterModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3799C392498B9208493B1014 /* Pods_TKMineCenterModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKMineCenterModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B172DDD913FC171A77AB04 /* Pods-TKMineCenterModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMineCenterModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKMineCenterModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKMineCenterModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,11 +61,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		65B35B313317164EF81ECC5A /* Pods_TKMineCenterModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKMineCenterModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86F5909261A74D3FBA5ACDED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86F5909261A74D3FBA5ACDED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9499257AC08CE766BC5CB664 /* Pods-TKMineCenterModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMineCenterModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A58D7DF4423057AB9910EF7E /* Pods-TKMineCenterModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMineCenterModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC4EDE659C48029F34B77E0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC4EDE659C48029F34B77E0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB46A27F586C1E3A43EF7E44 /* Pods-TKMineCenterModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKMineCenterModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				9499257AC08CE766BC5CB664 /* Pods-TKMineCenterModule_Tests.debug.xcconfig */,
 				CB46A27F586C1E3A43EF7E44 /* Pods-TKMineCenterModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

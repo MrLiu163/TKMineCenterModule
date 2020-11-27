@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0208C63C9120D1BD4118C7D7EAB30FCC /* TKMineCenterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD624DC2111AD8B38A6640DDDCE42A8C /* TKMineCenterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06DCFEBB6902072F6081F6C5893101E4 /* TKMineCenterModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F3AFF8561A4276B16F412A3367A7EC /* TKMineCenterModule-dummy.m */; };
+		0F489266C47DA20325919A5651789BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		3EF3EA2F718CAAF8052850EB591C1AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40C715AB06EE38BA4DFC09F9ED14625D /* Pods-TKMineCenterModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A5342B2A7D09249E1BDC7DAC5577DF /* Pods-TKMineCenterModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50D2D63D2B316560EC29F592CFA4B73A /* Pods-TKMineCenterModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333B7879E5AF5665CAE642FA69D0F50 /* Pods-TKMineCenterModule_Example-dummy.m */; };
+		573CD04E6F1DF780B7652B07F5ED642E /* TKColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CAA39438FB3166C5C378E5703F6E0 /* TKColorHelper.m */; };
+		577CBE3F29B5057B60982C2808738CF3 /* TKMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BCA9D0E4CD011FF62248F325B5E37 /* TKMonitor.m */; };
+		587AE0F1B5985DDFE2D6015282AE4D42 /* TKMineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9814710B674EA2D41CFF623E41F36 /* TKMineCenterViewController.m */; };
+		6C197E81CB0618F6A9276CDEC3A83F90 /* Pods-TKMineCenterModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F1C4293B1C4D10BCBF65190EF5B8 /* Pods-TKMineCenterModule_Tests-dummy.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		7169D900945C33542FBA1E80D425F41E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6793916F3C7989A2E103F13F5FA40168 /* Images.xcassets */; };
+		7E1BF202FB3F50F1FC89B3CE6B1AECC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		877536656BBA56B88D3A6299C3193BB3 /* TKMineCenterModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2487031CF2627FD913C42AADF88F94A8 /* TKMineCenterModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88372F5B084EB2FF90898884B9FFB226 /* TKMineCenterModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21AA21840866E7A772C512BA787EAA75 /* TKMineCenterModule.bundle */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CBDD38077EB5BC10EB3D633BDE4C60D /* TKMineCenterLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3843E7B5018247D2939141233FBF0B42 /* TKMineCenterLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8DAD1AF812566CC01A710126D5B0D138 /* TKColorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EECC035387550658492E294AC36D48 /* TKColorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		ACB356EC63C2BEC9465E0370A50349EA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C30BE05986D8122F81501A0CDCE2C90 /* ReplaceMe.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5691B6C427AED9819965DB622B9DE36 /* TKMineCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF26D5229EE3D89EAFA75DAE12BAE71 /* TKMineCenterLineView.m */; };
+		E56EC12A6C826D7D63FBF3C1DBCF8609 /* TKMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A5C40F1FB41272E578D64644C57A34 /* TKMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F719268659D0884F9633704A1D925E91 /* Pods-TKMineCenterModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90279023C2746A3BD3A764F36D94F858 /* Pods-TKMineCenterModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110CEE6B93D3712DAD18C1B5229D4D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1B6F0D612AF790C3106014FED84540;
+			remoteInfo = TKMineCenterModule;
+		};
+		2852F25DD8537557DA00781F197126A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		7E4BFC91564CD66EB3B5DC851B613506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499E5AD4D62AA3F615EC3A6D10997B0A;
+			remoteInfo = "TKMineCenterModule-TKMineCenterModule";
+		};
+		BEDFB3CDFD6D3DCD5B0BC125E0878C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46108DE4216E62C0A34764CDD6DB638;
+			remoteInfo = "Pods-TKMineCenterModule_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0355D990E8C6BB89F3DFC86B6B57AB90 /* TKMineCenterModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKMineCenterModule.modulemap; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0F64EE73C50DA53AAC1F84A79C57338F /* TKMineCenterModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKMineCenterModule-Info.plist"; sourceTree = "<group>"; };
+		0FF26D5229EE3D89EAFA75DAE12BAE71 /* TKMineCenterLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKMineCenterLineView.m; sourceTree = "<group>"; };
+		137512D92CAF3F1100AB20E5318D9DCC /* Pods_TKMineCenterModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKMineCenterModule_Example.framework; path = "Pods-TKMineCenterModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1559DDDFE9F0332302E33FDC77BC0E8A /* Pods_TKMineCenterModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKMineCenterModule_Tests.framework; path = "Pods-TKMineCenterModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FDEC81CC3E3524448426675CC6E846 /* Pods-TKMineCenterModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMineCenterModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		18D9814710B674EA2D41CFF623E41F36 /* TKMineCenterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKMineCenterViewController.m; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1D1FAE5474472EBF24846D0958CA5C03 /* Pods-TKMineCenterModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKMineCenterModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D66152699A00905B461093D3C0B549D /* Pods-TKMineCenterModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMineCenterModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		21AA21840866E7A772C512BA787EAA75 /* TKMineCenterModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TKMineCenterModule.bundle; path = "TKMineCenterModule-TKMineCenterModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		2487031CF2627FD913C42AADF88F94A8 /* TKMineCenterModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKMineCenterModule-umbrella.h"; sourceTree = "<group>"; };
+		27133339F6F8C48B079E3D9D3A3E3DB6 /* TKMineCenterModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKMineCenterModule.framework; path = TKMineCenterModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2F7CAA39438FB3166C5C378E5703F6E0 /* TKColorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKColorHelper.m; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		346829BCFFA6771EAB29E968939D17B1 /* Pods-TKMineCenterModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMineCenterModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3843E7B5018247D2939141233FBF0B42 /* TKMineCenterLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKMineCenterLineView.h; sourceTree = "<group>"; };
+		38A1F1C4293B1C4D10BCBF65190EF5B8 /* Pods-TKMineCenterModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKMineCenterModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		3A9A85B3E5676CAD944A0954F15A846C /* TKMineCenterModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKMineCenterModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B9CFF2CE04E4296A36C1C29AF13C720 /* Pods-TKMineCenterModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMineCenterModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3F80D930510E9D1D3913358542AA475B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		4FFC0CAC0283CDA1B9F16A7D5DE19AEB /* ResourceBundle-TKMineCenterModule-TKMineCenterModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TKMineCenterModule-TKMineCenterModule-Info.plist"; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58F0CEECC1DA1707437874A888A84A54 /* Pods-TKMineCenterModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMineCenterModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5BC10BA3CAC23EC46E52558F1BAB849B /* Pods-TKMineCenterModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMineCenterModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6793916F3C7989A2E103F13F5FA40168 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TKMineCenterModule/Assets/Images.xcassets; sourceTree = "<group>"; };
+		6999884DFFE36463B9C3466FBC2494B3 /* Pods-TKMineCenterModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMineCenterModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6C30BE05986D8122F81501A0CDCE2C90 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TKMineCenterModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6C871D29BB6433B83BB18AB91D4A49F2 /* TKMineCenterModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKMineCenterModule.release.xcconfig; sourceTree = "<group>"; };
+		7333B7879E5AF5665CAE642FA69D0F50 /* Pods-TKMineCenterModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKMineCenterModule_Example-dummy.m"; sourceTree = "<group>"; };
+		74A5C40F1FB41272E578D64644C57A34 /* TKMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKMonitor.h; sourceTree = "<group>"; };
+		7BC32DDEE3633439C09FA25CC741E485 /* Pods-TKMineCenterModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKMineCenterModule_Example.modulemap"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		84C96F9E2B3CC81BF52BCCAB4559FA31 /* TKMineCenterModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKMineCenterModule.debug.xcconfig; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		90279023C2746A3BD3A764F36D94F858 /* Pods-TKMineCenterModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKMineCenterModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABE40B2F9A550C3A1BCFD0F49AE2056D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B7AD2869B1F7E3AAA127C83E49DF241C /* Pods-TKMineCenterModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMineCenterModule_Example-Info.plist"; sourceTree = "<group>"; };
+		BE33712EB2B4A1AE9D684883791E33BB /* Pods-TKMineCenterModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMineCenterModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		C3F3AFF8561A4276B16F412A3367A7EC /* TKMineCenterModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKMineCenterModule-dummy.m"; sourceTree = "<group>"; };
+		C82EDE2B28730A61A95E601626B3F0CD /* Pods-TKMineCenterModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKMineCenterModule_Tests.modulemap"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D2EECC035387550658492E294AC36D48 /* TKColorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKColorHelper.h; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		E11BCA9D0E4CD011FF62248F325B5E37 /* TKMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKMonitor.m; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E8169C5BCC05E021BCF576E174CA0E9C /* Pods-TKMineCenterModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMineCenterModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A5342B2A7D09249E1BDC7DAC5577DF /* Pods-TKMineCenterModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKMineCenterModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E966050D246947F902A35FD6663704AD /* Pods-TKMineCenterModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKMineCenterModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB41A21BC669043D56E14E13CAFB6C03 /* TKMineCenterModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKMineCenterModule-prefix.pch"; sourceTree = "<group>"; };
+		FD624DC2111AD8B38A6640DDDCE42A8C /* TKMineCenterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKMineCenterViewController.h; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582B02CB2861D8CF88459D0DADDAE31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF3EA2F718CAAF8052850EB591C1AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC274BE00F5F6D8494DAC83C9523F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F489266C47DA20325919A5651789BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C0437D18BBF307F0930460212735B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1BF202FB3F50F1FC89B3CE6B1AECC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF340322A11447F133E1A086E83105F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15080992BDB8653BE713A35BB94E876F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3843E7B5018247D2939141233FBF0B42 /* TKMineCenterLineView.h */,
+				0FF26D5229EE3D89EAFA75DAE12BAE71 /* TKMineCenterLineView.m */,
+			);
+			name = View;
+			path = TKMineCenterModule/Classes/View;
+			sourceTree = "<group>";
+		};
+		1F3C2FD6379F52E478E62E15FE2BD447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				137512D92CAF3F1100AB20E5318D9DCC /* Pods_TKMineCenterModule_Example.framework */,
+				1559DDDFE9F0332302E33FDC77BC0E8A /* Pods_TKMineCenterModule_Tests.framework */,
+				21AA21840866E7A772C512BA787EAA75 /* TKMineCenterModule.bundle */,
+				27133339F6F8C48B079E3D9D3A3E3DB6 /* TKMineCenterModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F48D2C3860DEF4D13FABFC036EF5A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD624DC2111AD8B38A6640DDDCE42A8C /* TKMineCenterViewController.h */,
+				18D9814710B674EA2D41CFF623E41F36 /* TKMineCenterViewController.m */,
+			);
+			name = Controller;
+			path = TKMineCenterModule/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		3610743D513EB641F4AC234CC3679A07 /* Pods-TKMineCenterModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C82EDE2B28730A61A95E601626B3F0CD /* Pods-TKMineCenterModule_Tests.modulemap */,
+				1D1FAE5474472EBF24846D0958CA5C03 /* Pods-TKMineCenterModule_Tests-acknowledgements.markdown */,
+				5BC10BA3CAC23EC46E52558F1BAB849B /* Pods-TKMineCenterModule_Tests-acknowledgements.plist */,
+				38A1F1C4293B1C4D10BCBF65190EF5B8 /* Pods-TKMineCenterModule_Tests-dummy.m */,
+				3B9CFF2CE04E4296A36C1C29AF13C720 /* Pods-TKMineCenterModule_Tests-frameworks.sh */,
+				BE33712EB2B4A1AE9D684883791E33BB /* Pods-TKMineCenterModule_Tests-Info.plist */,
+				E8A5342B2A7D09249E1BDC7DAC5577DF /* Pods-TKMineCenterModule_Tests-umbrella.h */,
+				1D66152699A00905B461093D3C0B549D /* Pods-TKMineCenterModule_Tests.debug.xcconfig */,
+				346829BCFFA6771EAB29E968939D17B1 /* Pods-TKMineCenterModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKMineCenterModule_Tests";
+			path = "Target Support Files/Pods-TKMineCenterModule_Tests";
+			sourceTree = "<group>";
+		};
+		4501B6C4D012BC2C936B095DB0BB4F98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7D2A8D2F7649C0B8C7E5123E535843 /* Pods-TKMineCenterModule_Example */,
+				3610743D513EB641F4AC234CC3679A07 /* Pods-TKMineCenterModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5ECA8F525D326061BC4586C83A1FD3B9 /* TKMineCenterModule */ = {
+			isa = PBXGroup;
+			children = (
+				6793916F3C7989A2E103F13F5FA40168 /* Images.xcassets */,
+				6C30BE05986D8122F81501A0CDCE2C90 /* ReplaceMe.m */,
+				23F48D2C3860DEF4D13FABFC036EF5A5 /* Controller */,
+				FD27C44AF2489F9E4FFDD62BF7BA1D65 /* Model */,
+				7733543D77488D5F8E12521FA995B8C4 /* Pod */,
+				87078971D9C899A2C0C594947EE7F510 /* Support Files */,
+				15080992BDB8653BE713A35BB94E876F /* View */,
+			);
+			name = TKMineCenterModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7733543D77488D5F8E12521FA995B8C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ABE40B2F9A550C3A1BCFD0F49AE2056D /* LICENSE */,
+				3F80D930510E9D1D3913358542AA475B /* README.md */,
+				3A9A85B3E5676CAD944A0954F15A846C /* TKMineCenterModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B7D2A8D2F7649C0B8C7E5123E535843 /* Pods-TKMineCenterModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7BC32DDEE3633439C09FA25CC741E485 /* Pods-TKMineCenterModule_Example.modulemap */,
+				E966050D246947F902A35FD6663704AD /* Pods-TKMineCenterModule_Example-acknowledgements.markdown */,
+				6999884DFFE36463B9C3466FBC2494B3 /* Pods-TKMineCenterModule_Example-acknowledgements.plist */,
+				7333B7879E5AF5665CAE642FA69D0F50 /* Pods-TKMineCenterModule_Example-dummy.m */,
+				58F0CEECC1DA1707437874A888A84A54 /* Pods-TKMineCenterModule_Example-frameworks.sh */,
+				B7AD2869B1F7E3AAA127C83E49DF241C /* Pods-TKMineCenterModule_Example-Info.plist */,
+				90279023C2746A3BD3A764F36D94F858 /* Pods-TKMineCenterModule_Example-umbrella.h */,
+				E8169C5BCC05E021BCF576E174CA0E9C /* Pods-TKMineCenterModule_Example.debug.xcconfig */,
+				17FDEC81CC3E3524448426675CC6E846 /* Pods-TKMineCenterModule_Example.release.xcconfig */,
+			);
+			name = "Pods-TKMineCenterModule_Example";
+			path = "Target Support Files/Pods-TKMineCenterModule_Example";
+			sourceTree = "<group>";
+		};
+		87078971D9C899A2C0C594947EE7F510 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC0CAC0283CDA1B9F16A7D5DE19AEB /* ResourceBundle-TKMineCenterModule-TKMineCenterModule-Info.plist */,
+				0355D990E8C6BB89F3DFC86B6B57AB90 /* TKMineCenterModule.modulemap */,
+				C3F3AFF8561A4276B16F412A3367A7EC /* TKMineCenterModule-dummy.m */,
+				0F64EE73C50DA53AAC1F84A79C57338F /* TKMineCenterModule-Info.plist */,
+				EB41A21BC669043D56E14E13CAFB6C03 /* TKMineCenterModule-prefix.pch */,
+				2487031CF2627FD913C42AADF88F94A8 /* TKMineCenterModule-umbrella.h */,
+				84C96F9E2B3CC81BF52BCCAB4559FA31 /* TKMineCenterModule.debug.xcconfig */,
+				6C871D29BB6433B83BB18AB91D4A49F2 /* TKMineCenterModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKMineCenterModule";
+			sourceTree = "<group>";
+		};
+		8E3667B451D28CB376CDD28007F1BD06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECA8F525D326061BC4586C83A1FD3B9 /* TKMineCenterModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8E3667B451D28CB376CDD28007F1BD06 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				1F3C2FD6379F52E478E62E15FE2BD447 /* Products */,
+				4501B6C4D012BC2C936B095DB0BB4F98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD27C44AF2489F9E4FFDD62BF7BA1D65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2EECC035387550658492E294AC36D48 /* TKColorHelper.h */,
+				2F7CAA39438FB3166C5C378E5703F6E0 /* TKColorHelper.m */,
+				74A5C40F1FB41272E578D64644C57A34 /* TKMonitor.h */,
+				E11BCA9D0E4CD011FF62248F325B5E37 /* TKMonitor.m */,
+			);
+			name = Model;
+			path = TKMineCenterModule/Classes/Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36AE093CA7E2AC742FB6297191EC9362 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C715AB06EE38BA4DFC09F9ED14625D /* Pods-TKMineCenterModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8BCFFEBA8385F102EB94C16A5349E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAD1AF812566CC01A710126D5B0D138 /* TKColorHelper.h in Headers */,
+				8CBDD38077EB5BC10EB3D633BDE4C60D /* TKMineCenterLineView.h in Headers */,
+				877536656BBA56B88D3A6299C3193BB3 /* TKMineCenterModule-umbrella.h in Headers */,
+				0208C63C9120D1BD4118C7D7EAB30FCC /* TKMineCenterViewController.h in Headers */,
+				E56EC12A6C826D7D63FBF3C1DBCF8609 /* TKMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE8EF8DE45C72624C297C0FD1B239DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F719268659D0884F9633704A1D925E91 /* Pods-TKMineCenterModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		499E5AD4D62AA3F615EC3A6D10997B0A /* TKMineCenterModule-TKMineCenterModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F5483B52D09E6E80EA8942F47EC6C1 /* Build configuration list for PBXNativeTarget "TKMineCenterModule-TKMineCenterModule" */;
+			buildPhases = (
+				E24E368FB186A1D746D7D88D2475BA37 /* Sources */,
+				DF340322A11447F133E1A086E83105F9 /* Frameworks */,
+				47BB7128FEB4B4CF90A2D71959670BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TKMineCenterModule-TKMineCenterModule";
+			productName = "TKMineCenterModule-TKMineCenterModule";
+			productReference = 21AA21840866E7A772C512BA787EAA75 /* TKMineCenterModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		772B5B026D01A7CAD040C04CE37DC057 /* Pods-TKMineCenterModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D68825C2B5805817839CACBA2D9A93 /* Build configuration list for PBXNativeTarget "Pods-TKMineCenterModule_Tests" */;
+			buildPhases = (
+				36AE093CA7E2AC742FB6297191EC9362 /* Headers */,
+				88938E9DBFA9BD4AFC8D636ECA383A7B /* Sources */,
+				9FC274BE00F5F6D8494DAC83C9523F14 /* Frameworks */,
+				7F928FAAAC790A63F1A5453E34C6344A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673EA759083A2EDA105CE5332DD29BE9 /* PBXTargetDependency */,
+				0D4A5A6F013FD357C8C1BF0F6CC4EECE /* PBXTargetDependency */,
+			);
+			name = "Pods-TKMineCenterModule_Tests";
+			productName = "Pods-TKMineCenterModule_Tests";
+			productReference = 1559DDDFE9F0332302E33FDC77BC0E8A /* Pods_TKMineCenterModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC1B6F0D612AF790C3106014FED84540 /* TKMineCenterModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB320877A4FE8C89F4AADD7CECDE101D /* Build configuration list for PBXNativeTarget "TKMineCenterModule" */;
+			buildPhases = (
+				AD8BCFFEBA8385F102EB94C16A5349E1 /* Headers */,
+				0D03902ED4D38E12D96FAD8ACA265CB1 /* Sources */,
+				582B02CB2861D8CF88459D0DADDAE31C /* Frameworks */,
+				37EA193A3E1A31088D77275A34D1B34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC8C58C92F1CE2367083BED971A7E6CA /* PBXTargetDependency */,
+			);
+			name = TKMineCenterModule;
+			productName = TKMineCenterModule;
+			productReference = 27133339F6F8C48B079E3D9D3A3E3DB6 /* TKMineCenterModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F46108DE4216E62C0A34764CDD6DB638 /* Pods-TKMineCenterModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5870CEE2FBA6FD91E9C62A3EA34A8D7F /* Build configuration list for PBXNativeTarget "Pods-TKMineCenterModule_Example" */;
+			buildPhases = (
+				CAE8EF8DE45C72624C297C0FD1B239DC /* Headers */,
+				2F7271BCF8E82B673D67AAC7A2F5401B /* Sources */,
+				BE8C0437D18BBF307F0930460212735B /* Frameworks */,
+				6402D059DB51E18FB6145BF27939CACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB8B22C3049866C1C178D2B7B816669 /* PBXTargetDependency */,
+			);
+			name = "Pods-TKMineCenterModule_Example";
+			productName = "Pods-TKMineCenterModule_Example";
+			productReference = 137512D92CAF3F1100AB20E5318D9DCC /* Pods_TKMineCenterModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1F3C2FD6379F52E478E62E15FE2BD447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				F46108DE4216E62C0A34764CDD6DB638 /* Pods-TKMineCenterModule_Example */,
+				772B5B026D01A7CAD040C04CE37DC057 /* Pods-TKMineCenterModule_Tests */,
+				AC1B6F0D612AF790C3106014FED84540 /* TKMineCenterModule */,
+				499E5AD4D62AA3F615EC3A6D10997B0A /* TKMineCenterModule-TKMineCenterModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EA193A3E1A31088D77275A34D1B34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88372F5B084EB2FF90898884B9FFB226 /* TKMineCenterModule.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BB7128FEB4B4CF90A2D71959670BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7169D900945C33542FBA1E80D425F41E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6402D059DB51E18FB6145BF27939CACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F928FAAAC790A63F1A5453E34C6344A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D03902ED4D38E12D96FAD8ACA265CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB356EC63C2BEC9465E0370A50349EA /* ReplaceMe.m in Sources */,
+				573CD04E6F1DF780B7652B07F5ED642E /* TKColorHelper.m in Sources */,
+				D5691B6C427AED9819965DB622B9DE36 /* TKMineCenterLineView.m in Sources */,
+				06DCFEBB6902072F6081F6C5893101E4 /* TKMineCenterModule-dummy.m in Sources */,
+				587AE0F1B5985DDFE2D6015282AE4D42 /* TKMineCenterViewController.m in Sources */,
+				577CBE3F29B5057B60982C2808738CF3 /* TKMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7271BCF8E82B673D67AAC7A2F5401B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D2D63D2B316560EC29F592CFA4B73A /* Pods-TKMineCenterModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88938E9DBFA9BD4AFC8D636ECA383A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C197E81CB0618F6A9276CDEC3A83F90 /* Pods-TKMineCenterModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24E368FB186A1D746D7D88D2475BA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D4A5A6F013FD357C8C1BF0F6CC4EECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKMineCenterModule_Example";
+			target = F46108DE4216E62C0A34764CDD6DB638 /* Pods-TKMineCenterModule_Example */;
+			targetProxy = BEDFB3CDFD6D3DCD5B0BC125E0878C86 /* PBXContainerItemProxy */;
+		};
+		1DB8B22C3049866C1C178D2B7B816669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKMineCenterModule;
+			target = AC1B6F0D612AF790C3106014FED84540 /* TKMineCenterModule */;
+			targetProxy = 110CEE6B93D3712DAD18C1B5229D4D93 /* PBXContainerItemProxy */;
+		};
+		673EA759083A2EDA105CE5332DD29BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 2852F25DD8537557DA00781F197126A3 /* PBXContainerItemProxy */;
+		};
+		BC8C58C92F1CE2367083BED971A7E6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TKMineCenterModule-TKMineCenterModule";
+			target = 499E5AD4D62AA3F615EC3A6D10997B0A /* TKMineCenterModule-TKMineCenterModule */;
+			targetProxy = 7E4BFC91564CD66EB3B5DC851B613506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14D6588DBF0E800260DAE3DB64678DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8169C5BCC05E021BCF576E174CA0E9C /* Pods-TKMineCenterModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16DE8AFEC62406ADA7C599F76FB09588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C871D29BB6433B83BB18AB91D4A49F2 /* TKMineCenterModule.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKMineCenterModule";
+				IBSC_MODULE = TKMineCenterModule;
+				INFOPLIST_FILE = "Target Support Files/TKMineCenterModule/ResourceBundle-TKMineCenterModule-TKMineCenterModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKMineCenterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1A76FB2BB9EBDB89BAC45602998EC7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C96F9E2B3CC81BF52BCCAB4559FA31 /* TKMineCenterModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKMineCenterModule/TKMineCenterModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKMineCenterModule/TKMineCenterModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKMineCenterModule/TKMineCenterModule.modulemap";
+				PRODUCT_MODULE_NAME = TKMineCenterModule;
+				PRODUCT_NAME = TKMineCenterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23C9906B7D25ACB5AA2849BDDD53F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C871D29BB6433B83BB18AB91D4A49F2 /* TKMineCenterModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKMineCenterModule/TKMineCenterModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKMineCenterModule/TKMineCenterModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKMineCenterModule/TKMineCenterModule.modulemap";
+				PRODUCT_MODULE_NAME = TKMineCenterModule;
+				PRODUCT_NAME = TKMineCenterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33E018235298AF8910363B8C3D3C6481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D66152699A00905B461093D3C0B549D /* Pods-TKMineCenterModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3826FADA195448990890564ADCB19300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C96F9E2B3CC81BF52BCCAB4559FA31 /* TKMineCenterModule.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKMineCenterModule";
+				IBSC_MODULE = TKMineCenterModule;
+				INFOPLIST_FILE = "Target Support Files/TKMineCenterModule/ResourceBundle-TKMineCenterModule-TKMineCenterModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKMineCenterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		635473C3A1E9C026BD98C2C981A9C975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FDEC81CC3E3524448426675CC6E846 /* Pods-TKMineCenterModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMineCenterModule_Example/Pods-TKMineCenterModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		99CE03B69511DF3D1DDF59CFF1842F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346829BCFFA6771EAB29E968939D17B1 /* Pods-TKMineCenterModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMineCenterModule_Tests/Pods-TKMineCenterModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5870CEE2FBA6FD91E9C62A3EA34A8D7F /* Build configuration list for PBXNativeTarget "Pods-TKMineCenterModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D6588DBF0E800260DAE3DB64678DD9 /* Debug */,
+				635473C3A1E9C026BD98C2C981A9C975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D68825C2B5805817839CACBA2D9A93 /* Build configuration list for PBXNativeTarget "Pods-TKMineCenterModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E018235298AF8910363B8C3D3C6481 /* Debug */,
+				99CE03B69511DF3D1DDF59CFF1842F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F5483B52D09E6E80EA8942F47EC6C1 /* Build configuration list for PBXNativeTarget "TKMineCenterModule-TKMineCenterModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3826FADA195448990890564ADCB19300 /* Debug */,
+				16DE8AFEC62406ADA7C599F76FB09588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB320877A4FE8C89F4AADD7CECDE101D /* Build configuration list for PBXNativeTarget "TKMineCenterModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A76FB2BB9EBDB89BAC45602998EC7C4 /* Debug */,
+				23C9906B7D25ACB5AA2849BDDD53F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module TKMineCenterModule {
+  umbrella header "TKMineCenterModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
