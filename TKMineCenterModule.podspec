@@ -33,15 +33,15 @@ TKMineCenterModule is a codeModule of mine center, contain view model controller
   s.source_files = 'TKMineCenterModule/Classes/**/*'
   
   s.subspec 'Model' do |ss|
-      ss.source_files = 'NCKFoundation/Classes/Model/**/*'
+      ss.source_files = 'TKMineCenterModule/Classes/Model/**/*'
   end
   
   s.subspec 'Controller' do |ss|
-      ss.source_files = 'NCKFoundation/Classes/Controller/**/*'
+      ss.source_files = 'TKMineCenterModule/Classes/Controller/**/*'
   end
   
   s.subspec 'View' do |ss|
-      ss.source_files = 'NCKFoundation/Classes/View/**/*'
+      ss.source_files = 'TKMineCenterModule/Classes/View/**/*'
   end
     
   s.resource_bundles = {
