@@ -37,7 +37,7 @@ TKMineCenterModule is a codeModule of mine center, contain view model controller
   end
   
   s.subspec 'Controller' do |ss|
-      ss.source_files = 'TKMineCenterModule/Classes/Controller/**/*'
+      ss.source_files = 'TKMineCenterModule/Classes/Controller/TKMineCenterViewController.{h,m}'
   end
   
   s.subspec 'View' do |ss|
