@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKMineCenterModule'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'TKMineCenterModule is a module for mine center'
 
 # This description is used to generate tags and improve search results.
@@ -43,10 +43,16 @@ TKMineCenterModule is a codeModule of mine center, contain view model controller
   s.subspec 'View' do |ss|
       ss.source_files = 'TKMineCenterModule/TKMineCenterLineView.{h,m}'
   end
-    
+
+  s.subspec 'Category' do |ss|
+      ss.source_files = 'TKMineCenterModule/NSBundle+TKMineCenter.{h,m}'
+  end
+  
   s.resource_bundles = {
     'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.xcassets']
   }
+  
+  s.resource = 'TKMineCenterModule/TKMineCenterModule.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
