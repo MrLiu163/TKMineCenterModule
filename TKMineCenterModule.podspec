@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKMineCenterModule'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'TKMineCenterModule is a module for mine center'
 
 # This description is used to generate tags and improve search results.
@@ -48,9 +48,12 @@ Pod::Spec.new do |s|
       ss.source_files = 'TKMineCenterModule/Classes/View/**/*'
   end
 
-  #s.subspec 'Category' do |ss|
+  s.subspec 'Category' do |ss|
       #ss.source_files = 'TKMineCenterModule/NSBundle+TKMineCenter.{h,m}'
-  #end
+      ss.source_files = 'TKMineCenterModule/Classes/Category/**/*'
+      #Category中依赖了Category之外的模块Controller
+      ss.dependency 'TKMineCenterModule/Controller'
+  end
   
   s.resource_bundles = {
     'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.xcassets']
