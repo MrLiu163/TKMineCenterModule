@@ -7,6 +7,7 @@
 //
 
 #import "TKViewController.h"
+#import <TKMineCenterModule/TKMineCenterModule.h>
 
 @interface TKViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)tapBtnAction:(UIButton *)sender {
+    TKMineCenterViewController *mineCenterVc = [[TKMineCenterViewController alloc] init];
+    [self.navigationController pushViewController:mineCenterVc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
