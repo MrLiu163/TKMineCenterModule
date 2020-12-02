@@ -20,11 +20,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    // bundle图片资源访问
     UIImage *topUpIcon = [NSBundle tk_mineCenterImageWithName:@"pre_topUp@2x"];
     UIImageView *topUpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 60, 60)];
     [self.view addSubview:topUpImageView];
     topUpImageView.contentMode = UIViewContentModeScaleAspectFill;
     topUpImageView.image = topUpIcon;
+    // bundle本地化字符串访问
+    UILabel *goodLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 180, 150, 30)];
+    [self.view addSubview:goodLabel];
+    goodLabel.text = [NSBundle tk_localizedStringForKey:TKGoodNightText];
     NSLog(@"----->>>>>>");
 }
 

@@ -11,7 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSBundle (TKMineCenter)
 
+/** 获取包中图片 */
 + (UIImage *)tk_mineCenterImageWithName:(NSString *)imageName;
+
+/** 获取本地字符串 */
++ (NSString *)tk_localizedStringForKey:(NSString *)key;
 
 @end
 

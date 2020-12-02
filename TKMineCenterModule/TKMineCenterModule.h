@@ -12,5 +12,6 @@
 #import "TKMonitor.h"
 #import "TKColorHelper.h"
 #import "TKMineCenterViewController.h"
+#import "TKMineCenterConst.h"
 
 #endif /* TKMineCenterModule_h */
