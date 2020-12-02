@@ -8,6 +8,7 @@
 
 #import "TKViewController.h"
 #import <TKMineCenterModule/TKMineCenterModule.h>
+#import <TKMineCenterModule/NSBundle+TKMineCenter.h>
 
 @interface TKViewController ()
 
@@ -19,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *topUpIcon = [NSBundle tk_mineCenterImageWithName:@"pre_topUp@2x"];
+    UIImageView *topUpImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 60, 60)];
+    [self.view addSubview:topUpImageView];
+    topUpImageView.contentMode = UIViewContentModeScaleAspectFill;
+    topUpImageView.image = topUpIcon;
+    NSLog(@"----->>>>>>");
 }
 
 - (IBAction)tapBtnAction:(UIButton *)sender {

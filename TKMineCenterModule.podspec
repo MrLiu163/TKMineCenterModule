@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKMineCenterModule'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'TKMineCenterModule is a module for mine center'
 
 # This description is used to generate tags and improve search results.
@@ -55,10 +55,11 @@ Pod::Spec.new do |s|
       ss.dependency 'TKMineCenterModule/Controller'
   end
   
-  s.resource_bundles = {
-    'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.xcassets']
-  }
+  #s.resource_bundles = {
+    #'TKMineCenterModule' => ['TKMineCenterModule/Assets/*.xcassets']
+  #}
   
+  s.resources = 'TKMineCenterModule/TKMineCenterModule.bundle'
   #s.resource_bundles = 'TKMineCenterModule/TKMineCenterModule.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

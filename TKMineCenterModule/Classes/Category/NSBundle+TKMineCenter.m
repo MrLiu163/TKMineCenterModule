@@ -24,7 +24,7 @@
 {
     static UIImage *arrowImage = nil;
     if (arrowImage == nil) {
-        arrowImage = [[UIImage imageWithContentsOfFile:[[self tk_mineCenterBundle] pathForResource:imageName ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        arrowImage = [[UIImage imageWithContentsOfFile:[[self tk_mineCenterBundle] pathForResource:imageName ofType:@"png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
     return arrowImage;
 }
