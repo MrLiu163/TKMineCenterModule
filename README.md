@@ -22,7 +22,7 @@ pod 'TKMineCenterModule'
 
 ## Author
 
-MrLiu163, liunf@tksp.com
+MrLiu163, lnfsky@163.com
 
 ## License
 
